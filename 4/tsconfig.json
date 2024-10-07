@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",                           // Spécifie le niveau ECMAScript de sortie
+    "module": "commonjs",                      // Spécifie le système de modules à utiliser
+    "strict": true,                            // Active toutes les vérifications de type strictes
+    "esModuleInterop": true,                   // Active l'interopérabilité entre les modules CommonJS et ES
+    "skipLibCheck": true,                      // Ignore la vérification des fichiers de déclaration
+    "forceConsistentCasingInFileNames": true, // Force la cohérence des majuscules dans les noms de fichiers
+    "experimentalDecorators": true,            // Active les décorateurs
+    "outDir": "./dist"                         // Dossier de sortie pour les fichiers compilés
+  },
+  "include": [
+    "src/**/*"                                 // Inclut tous les fichiers TypeScript dans le dossier src
+  ],
+  "exclude": [
+    "node_modules",                            // Exclut le dossier node_modules
+    "**/*.spec.ts"                             // Exclut les fichiers de test
+  ]
+}
